@@ -1,0 +1,73 @@
+/* General body styling */
+body {
+  background-image: url(login\ and\ signup\ pic.jpg); /* Replace with your background image */
+  background-size: cover;
+  
+}
+
+/* Header styling */
+header {
+  text-align: center;
+  margin-top: 0px;
+  padding-top: 10px;
+}
+
+header h1 {
+  font-size: 36px;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+
+/* Container for both forms */
+.form-container {
+  display: flex;
+  justify-content: center; /* Centers the forms horizontally */
+  align-items: flex-start; /* Keeps forms aligned at the top */
+  height: 100vh;
+  gap: 150px;
+}
+
+/* Each form box */
+.form-box {
+  background-color: #f9f9f9;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 350px; /* Fixed width for both forms */
+  box-sizing: border-box; /* Ensures padding doesn't affect width */
+}
+
+.form-box h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Form styling */
+form label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+form input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 7px;
+}
+
+/* Submit button styling */
+button {
+  width: 100%;
+  padding: 10px;
+  background-color: #06468b;
+  color: rgb(255, 255, 255);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
